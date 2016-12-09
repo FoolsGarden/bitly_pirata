@@ -1,4 +1,4 @@
-# Solamente utilizaremos un recurso: Urls. Contempla que deberás tener dos columnas una para la URL original (long_url). Además de la url en tu modelo deberás tener una columna para guardar una url (short_url) o una cadena que será la cual nos redirigirá a la url original.
+
 
 # Deberás tener una ruta dentro de tu controlador que enliste todas las Urls y otra que por medio de un post cree un objeto url.
 

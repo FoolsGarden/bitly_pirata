@@ -3,7 +3,7 @@
 <% if @database.empty? %>
   <h3>No hay nada</h3>
 <% else %>
-<table style="table-layout:fixed;">
+<table class="fixed">
   <thead>
     <tr style="border-bottom:1px solid black;">
       <th style="padding:5px;">Unshortened links</th>
@@ -14,7 +14,7 @@
   <tbody>
   <% @database.each do |urls| %>
     <tr style="border-bottom:1px solid black;">
-      <td width="300px;"><%= urls.long_url %></td>
+      <td style="fixed"><%= urls.long_url %></td>
       <% short = urls.short_url %>
       <td><a href="<%= short %>"><%= "http://ro.ro/" + short %></a></td>
       <td><%= urls.click_count %></td>     

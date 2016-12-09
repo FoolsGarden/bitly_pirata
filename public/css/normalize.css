@@ -389,6 +389,9 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
+ tr {
+  width: 500px;
+ }
 
 table {
     border-collapse: collapse;
